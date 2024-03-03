@@ -1,0 +1,183 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #113 url(images/sky.jpg);
+    font-size: 16px;
+    width: 500%;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+    font-family: Segoe Print;
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    color: #00aaff;
+    padding: 10px 0 0 0;
+    font-weight: bold;
+    font-family: Segoe Print;
+    font-size: 32px;
+}
+
+p {
+    color: #ddd;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    /*выравнивание текста по ширине*/
+}
+
+a {
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #345bab;
+}
+
+img {
+    /*Стиль для картинок*/
+    margin: 0px 40px 20px 0;
+    float: left;
+}
+
+iframe {
+    /*стиль для видео*/
+    margin: 20px 0;
+}
+
+
+#wrap {
+    margin: 0 auto;
+    /* Центрируем*/
+    min-height: 100%;
+    /*минимальная высота 100% - для прижатого к низу окна футера*/
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    /*Заголовок по ширине занимает весь центральный блок*/
+    text-align: left;
+    color: #fff;
+    font-size: 24px;
+    height: 150px;
+    /*Высота заголовка*/
+    background: #345b9a;
+    display: table;
+    /*Представляем как таблицу для вертикального выравнивания*/
+    vertical-align: middle;
+}
+
+#header h1 {
+    position: fixed;
+    padding-left: 2%;
+}
+
+#menu {
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0 40px;
+    /*отступы*/
+    margin: 10px 0;
+    top: 20px;
+    width: 900px;
+    float: left;
+}
+
+.list_menu {
+    /*Стиль для всего меню*/
+    list-style: none;
+    /*Убираем метки списка*/
+    font-family: Arial, Helvetica, Sans-serif;
+    font-weight: bold;
+}
+
+.list_menu li {
+    /*Стиль для каждого пункта меню*/
+    margin: 10px;
+    font-family: Segoe Print;
+    width: 140px;
+    float: left;
+}
+
+.list_menu li a {
+    /*Стиль для ссылки, находящейся внутри каждого пункта меню*/
+    padding: 10px;
+    display: block;
+    color: #345bab;
+    background: #74c0e8;
+}
+
+.list_menu li a:hover {
+    /*Стиль для ссылки, находящейся внутри каждого пункта меню при наведении мышки*/
+    color: #fff;
+    background: #091418;
+}
+
+.section {
+    width: 20%;
+    float: left;
+    margin: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    padding: 150px 2% 0;
+}
+
+.spacer {
+    height: 1%;
+    width: 0;
+    float: left;
+}
+
+img.planet {
+    width: 200px;
+    height: auto;
+}
+
+#footer {
+    /*Стиль для подвала*/
+    position: relative;
+    clear: both;
+    width: 100%;
+    background: #345b9a;
+    display: table;
+    /*Представляем как таблицу для вертикального выравнивания*/
+    margin: 0 auto;
+    height: 80px;
+    /*высота футера*/
+    margin-top: -80px;
+    /*поднимаем футер на его же высоту - для прижатого к низу окна футера */
+}
+
+#footer p {
+    /*Стиль для текста внутри подвала*/
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin: 30px 2%;
+}
+
+.up {
+    /*Стиль для стрелки-ссылки вверх*/
+    position: fixed;
+    /*Фиксированное месторасположение*/
+    color: #fff;
+    bottom: 0px;
+    right: 20px;
+    font-size: 40px;
+}
